@@ -7,7 +7,7 @@ It is currently just a PoC, it’s not finished yet and I’m not intended to us
 # How does it work ?:
 - Register a throwaway glot account for a command account and report account
 - Generate API Token for 2 accounts and set the variable in the source file (APIToken, ReportAPIToken)
-- Let’s start with a non CNC approach, on the command account, create new snippet by choose a plaintext and set title as “ALL:123456” (<BOT_ID>:<COMMAND_ID>, if the BOT_ID is “ALL”, every bot will take this command)  Now the content, we will use this simple interface to execute shell command.
+- Let’s start with a non CNC approach, on the command account, create new snippet by choose a plaintext and set title as “ALL:123456” (BOT_ID:COMMAND_ID, if the BOT_ID is “ALL”, every bot will take this command)  Now the content, we will use this simple interface to execute shell command.
 ```
 {"cmd": "<ANY_COMMAND>", "args": "<ANY_ARGS>"}
 ```
